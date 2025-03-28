@@ -1,4 +1,9 @@
 package Ejercicio1.java;
 
-public class Figura {
+public abstract class Figura {
+    public abstract double calcularArea();
+
+    public void mostrarArea() {
+        System.out.println("El área es: " + calcularArea());
+    }
 }
